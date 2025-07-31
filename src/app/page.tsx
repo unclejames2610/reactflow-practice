@@ -1,6 +1,6 @@
-import HomePage from "@/views/HomePage";
+import Workflow from "@/views/Workflow";
 import Image from "next/image";
 
 export default function Home() {
-  return <HomePage />;
+  return <Workflow />;
 }
