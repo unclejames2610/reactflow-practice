@@ -52,14 +52,14 @@ export const initialNodes: Node[] = [
 ];
 
 export const initialEdges: Edge[] = [
-  //   {
-  //     id: "1-2",
-  //     source: "1",
-  //     target: "2",
-  //     animated: true,
-  //     //   style: { stroke: "#f00" },
-  //     //   label: "Edge from Node 1 to Node 2",
-  //     //   labelStyle: { fill: "#f00", fontWeight: "bold" },
-  //     //   labelBgStyle: { fill: "#fff", color: "#000" },
-  //   },
+  {
+    id: "1-2",
+    source: "1",
+    target: "2",
+    animated: true,
+    style: { stroke: "#f00" },
+    label: "Money Flow",
+    //   labelStyle: { fill: "#f00", fontWeight: "bold" },
+    //   labelBgStyle: { fill: "#fff", color: "#000" },
+  },
 ];
