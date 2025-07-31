@@ -26,6 +26,7 @@ export default function PaymentProviderSelect() {
         position: { x: location, y: location },
       },
     ]);
+
     setIsMenuActive(false);
   };
   return (
@@ -38,8 +39,9 @@ export default function PaymentProviderSelect() {
       </div>
       {isMenuActive && (
         <div className="flex flex-col absolute top-12 left-0 w-full z-10 shadow bg-slate-200 rounded">
-          {PAYMENT_PROVIDERS.map((provider) => (
+          {PAYMENT_PROVIDERS.map((provider, index) => (
             <div
+              key={index}
               className="cursor-pointer py-1 px-2 hover:bg-slate-400"
               onClick={() => onProviderClick(provider)}
             >
