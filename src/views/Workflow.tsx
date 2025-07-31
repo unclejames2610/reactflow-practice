@@ -52,6 +52,7 @@ const Workflow = () => {
           nodeTypes={nodeTypes}
           edgeTypes={edgeTypes}
           fitView
+          proOptions={{ hideAttribution: true }}
         >
           <Background />
           <Controls />
