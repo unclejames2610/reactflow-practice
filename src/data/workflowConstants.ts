@@ -1,12 +1,6 @@
 import { Edge, Node } from "reactflow";
 
 export const initialNodes: Node[] = [
-  //   {
-  //     id: "1",
-  //     data: { label: "Node 1" },
-  //     position: { x: 0, y: 0 },
-  //   },
-
   {
     id: "1",
     position: { x: 100, y: 100 },
